@@ -1,0 +1,135 @@
+
+.data-grid-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Title Styling */
+.data-grid-container h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Input Container */
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* TextField Styling */
+.input-container .MuiTextField-root {
+  width: 200px;
+}
+
+/* Button Styling */
+.input-container .MuiButton-root {
+  height: 40px;
+  font-weight: bold;
+}
+
+/* DataGrid Styling */
+.MuiDataGrid-root {
+  border-radius: 8px !important;
+  background-color: white !important;
+}
+
+.MuiDataGrid-columnHeaders {
+  background-color: #1976d2 !important;
+  color: white !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
+
+/* Row Styling */
+.MuiDataGrid-row:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.MuiDataGrid-row:hover {
+  background-color: #e3f2fd !important;
+}
+
+/* Delete Button */
+.MuiButton-containedSecondary {
+  background-color: #dc3545 !important;
+}
+
+.MuiButton-containedSecondary:hover {
+  background-color: #b52a37 !important;
+}
+.data-grid-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.data-grid-container h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.input-container .MuiTextField-root {
+  width: 200px;
+}
+
+.input-container .MuiButton-root {
+  height: 40px;
+  font-weight: bold;
+}
+
+.MuiDataGrid-root {
+  border-radius: 8px !important;
+  background-color: white !important;
+}
+
+.MuiDataGrid-columnHeaders {
+  background-color: #1976d2 !important;
+  color: white !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
+
+.MuiDataGrid-row:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.MuiDataGrid-row:hover {
+  background-color: #e3f2fd !important;
+}
+
+.MuiButton-containedSecondary {
+  background-color: #dc3545 !important;
+}
+
+.MuiButton-containedSecondary:hover {
+  background-color: #b52a37 !important;
+}
+
